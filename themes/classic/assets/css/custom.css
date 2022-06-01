@@ -1,0 +1,11 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+body:not(#module-leoblog-list) #content-box-blog {
+  display: none;
+}
+#content-box-blog img {
+  height: auto;
+  max-width: 100%;
+}

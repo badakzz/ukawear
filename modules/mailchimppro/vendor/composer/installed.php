@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '21054547d48a1a8bb71e5cfd0e622d4d13bfe48d',
+        'name' => 'prestachamps/mailchimppro',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'drewm/mailchimp-api' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../drewm/mailchimp-api',
+            'aliases' => array(),
+            'reference' => '30155166cd1059346c0e3fb94d7e636f88e9d374',
+            'dev_requirement' => false,
+        ),
+        'jasongrimes/paginator' => array(
+            'pretty_version' => '1.0.3',
+            'version' => '1.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jasongrimes/paginator',
+            'aliases' => array(),
+            'reference' => '3411e3cd0c6479a0b514f26e4358f0273552f221',
+            'dev_requirement' => false,
+        ),
+        'prestachamps/mailchimppro' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '21054547d48a1a8bb71e5cfd0e622d4d13bfe48d',
+            'dev_requirement' => false,
+        ),
+    ),
+);

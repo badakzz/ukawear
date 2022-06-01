@@ -1,0 +1,39 @@
+@import "theme_variables";
+@import "bootstrap/rtl/_bootstrap-rtl";
+
+// MEGAMENU
+.off-canvas-active > #page{
+	@include transform(translateX(-234px));
+}
+.off-canvas-active > .off-canvas-nav-megamenu.active{
+	@include transform(translateX(-234px));
+}
+.off-canvas-nav-megamenu {
+    @include transition(all 450ms ease 0s);
+}
+.off-canvas-inactive{
+    > #page{
+        @include transition(none);
+    }
+}
+// PRODUCT ITEM
+.product_block{
+    &.last_item{
+        .thumbnail-container{
+        	.leo-more-info{
+                left: auto;
+                right: 0px;
+            }
+            &:hover{
+                .leo-more-info{
+                    left: auto;
+                    right: -90px;
+                }
+            }
+        }       
+    }
+}
+// Button Select 
+.form-control-select { 
+  background: $gray-light url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAPklEQVR4Ae3TwREAEBQD0V/6do4SXPZg7EsBhsQ8IEmSMOsiuEfg3gL3oXC7wK0bd1G4o8X9F4yIkyQfSrIByQBjp7QuND8AAAAASUVORK5CYII=") no-repeat scroll left 8px center / 20px 20px;
+}

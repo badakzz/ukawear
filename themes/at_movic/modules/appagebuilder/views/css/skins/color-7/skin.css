@@ -1,0 +1,74 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+a:hover, a:focus {
+  color: #e6e6fa; }
+
+.leo-megamenu .navbar-nav > li.active > a, .leo-megamenu .navbar-nav > li:hover > a, .leo-megamenu .navbar-nav > li:focus > a,
+.box-tabproducts .nav-tabs li a.active, .box-tabproducts .nav-tabs li a:hover,
+.leo-megamenu .dropdown-menu li a:hover,
+.block-social li a:hover,
+.thumbnail-container .product-title a:hover,
+.popup-over .popup-content a:hover,
+.group-input a.apconfig.active,
+.block-categories .category-sub-menu li > a:hover,
+.block-social li:hover,
+.owl-theme .owl-buttons div:hover:before,
+.plist-dsimple .thumbnail-container .discount-percentage,
+.box-fashion .ApHtml a:hover,
+.blog-container .blog-title a:hover,
+.blog-container .link-readmore:hover,
+.popup-over .popup-content li.current a,
+.blog-item .title a:hover,
+.blog-item .more:hover,
+div.star.star_on:before, div.star.star_hover:before {
+  color: #e6e6fa; }
+
+.bannercontainer .tp-caption.btn:hover,
+.plist-dsimple .thumbnail-container .pro3-btn .btn-product:hover, .plist-dsimple .thumbnail-container .pro3-btn .quick-view:hover,
+.block_newsletter .input-wrapper button:hover,
+.leo-fly-cart-total,
+.box-top .col-info .ap-btn-wishlist .ap-total,
+.enable_fheader.btn_yes:after,
+.box-top .col-info #cart-block .header .cart-products-count,
+.block-categories .category-sub-menu li:hover:after,
+.has-discount .discount,
+.product-add-to-cart .product-quantity .add-to-cart:hover,
+#back-top,
+.iview-directionNav a:hover,
+.iview-controlNav div.iview-items ul li a.iview-control.active, .iview-controlNav div.iview-items ul li a.iview-control:hover,
+.leo-megamenu .dropdown-menu li a:hover:before,
+.plist-center .thumbnail-container .pro-btn .btn-product:hover {
+  background: #e6e6fa; }
+
+.block_newsletter .input-wrapper button:hover,
+.block-social li:hover,
+.owl-theme .owl-buttons div:hover,
+.iview-directionNav a:hover,
+.blog-container .link-readmore:hover,
+.plist-center .thumbnail-container .pro-btn .btn-product:hover {
+  border-color: #e6e6fa; }
+
+*::selection {
+  background-color: #e6e6fa;
+  color: #fff; }
+
+/*# sourceMappingURL=skin.css.map */

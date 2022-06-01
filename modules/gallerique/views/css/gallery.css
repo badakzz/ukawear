@@ -1,0 +1,118 @@
+#gallery_container, #gallery_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#gallery_container li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gallery_container li a {
+    display: block;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid #eee;
+    margin: 7px 7px 0 0;
+}
+
+#module-gallerique-gallery #fancybox-title-over h4 a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.gallerique_title_block {
+    padding: 20px;
+}
+
+p.label-image {
+    font-weight: bold;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.fancybox-opened .fancybox-title.fancybox-title-inside-wrap {
+    position: initial;
+}
+
+.gallerique-buttons {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    background: rgba(255,255,255,0.5);
+    padding: 3px 5px;
+    border-radius: 4px;
+    z-index: 8050;
+}
+
+.gallerique-buttons:hover {
+    background: rgba(255,255,255,1);
+}
+
+.gallerique-gallery img {
+    width: 100%;
+}
+#gallery_list .row {
+    padding-top: 30px;
+}
+
+.gallerique-gallery-cover {
+    position: relative;
+}
+.gallerique-gallery-desc {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #000;
+    font-weight: bold;
+}
+
+.fancybox-title-inside-wrap {
+    padding-top: 0;
+}
+
+.growl_status_all {
+    position: fixed;
+    z-index: 9999;
+    top: 5px;
+    right: 10px;
+}
+
+.growl_status_gallerique {
+    display: none;
+    position: relative;
+    margin: 5px 0;
+    padding: 10px 25px 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgba(67, 183, 84, 0.85);
+    transition: none;
+}
+
+.growl_status_gallerique {
+    background-color: rgba(226, 124, 121, 0.85);
+}
+
+.growl_status_gallerique .close_status_gallerique {
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 1px;
+}
+
+.growl_status_gallerique .close_status_gallerique:before {
+    content: "\f00d";
+    font-family: "FontAwesome";
+    font-size: 12px;
+    line-height: 12px;
+}

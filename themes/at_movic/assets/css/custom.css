@@ -1,0 +1,43 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/* Code for the blog's left-side image */
+body:not(#module-leoblog-list) #content-box-blog {
+  display: none;
+}
+#content-box-blog {
+  border-right: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+}
+/* Duplicates the style of the other h4 */
+#content-box-blog h4 {
+  font-size: 16px;
+  padding: 20px 30px;
+  position: relative;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.1;
+  color: #000;
+}
+#content-box-blog p {
+  margin-bottom: 0;
+}
+#content-box-blog img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width:767px) {
+  #content-box-blog {
+    display: none;
+  }
+}
+
+.blog-description img {
+    height: auto;
+    max-width: 100%;
+}

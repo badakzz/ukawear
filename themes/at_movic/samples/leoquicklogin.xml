@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>
+  <configurations>
+    <config><name><![CDATA[AP_INSTALLED_LEOQUICKLOGIN]]></name><value><![CDATA[0]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_DEFAULT_TAB]]></name><value><![CDATA[#fieldset_1_1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterAfter_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterAfter_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterAfter_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterBefore_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterBefore_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterBefore_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterProduct_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterProduct_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooterProduct_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooter_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooter_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayFooter_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayHome_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayHome_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayHome_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayLeftColumnProduct_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayLeftColumnProduct_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayLeftColumnProduct_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayLeftColumn_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayLeftColumn_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayLeftColumn_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNav1_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNav1_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNav1_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNav2_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNav2_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNav2_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNavFullWidth_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNavFullWidth_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayNavFullWidth_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayProductButtons_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayProductButtons_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayProductButtons_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayReassurance_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayReassurance_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayReassurance_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayRightColumnProduct_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayRightColumnProduct_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayRightColumnProduct_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayRightColumn_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayRightColumn_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayRightColumn_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayTop_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayTop_LAYOUT]]></name><value><![CDATA[login]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_displayTop_TYPE]]></name><value><![CDATA[popup]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_ENABLE]]></name><value><![CDATA[1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_ENABLE_CHECKCOOKIE]]></name><value><![CDATA[1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_ENABLE_HIDE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_ENABLE_PUSHEFFECT]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_ENABLE_REDIRECT]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_ENABLE_TABNAVIGATION]]></name><value><![CDATA[0]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_FACEBOOK_APPID]]></name><value><![CDATA[181509725924023]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_FACEBOOK_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_GOOGLE_CLIENTID]]></name><value><![CDATA[#]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_GOOGLE_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_LIFETIME_COOKIE]]></name><value><![CDATA[28800]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_SOCIALLOGIN_ENABLE]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_SOCIALLOGIN_ENBABLE_FO]]></name><value><![CDATA[1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_SOCIALLOGIN_LOGINPAGE_ENABLE]]></name><value><![CDATA[1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_SOCIALLOGIN_SHOWBOTTOM]]></name><value><![CDATA[1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_SOCIALLOGIN_SHOWBUTTONTEXT]]></name><value><![CDATA[1]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_SOCIALLOGIN_SHOWTOP]]></name><value><![CDATA[]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_TWITTER_APIKEY]]></name><value><![CDATA[#]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_TWITTER_APISECRET]]></name><value><![CDATA[#]]></value></config>
+    <config><name><![CDATA[LEOQUICKLOGIN_TWITTER_ENABLE]]></name><value><![CDATA[]]></value></config>
+</configurations>
+
+<sql>
+<![CDATA[]]></sql>
+
+  <hooks>
+    <hook module="leoquicklogin" hook="displayRightColumn" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayLeftColumn" position="5" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayHome" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="Header" position="10" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayAfterBodyOpeningTag" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayBeforeBodyClosingTag" position="2" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayTop" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayNavFullWidth" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayRightColumnProduct" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayFooterProduct" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayFooter" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayProductAdditionalInfo" position="4" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayLeftColumnProduct" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayCustomerLoginFormAfter" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="actionAdminControllerSetMedia" position="6" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayNav1" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayFooterBefore" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayNav2" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayReassurance" position="3" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayFooterAfter" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="displayLeoQuickLogin" position="1" exceptions=""/>
+    <hook module="leoquicklogin" hook="actionCustomerLogoutAfter" position="1" exceptions=""/>
+  </hooks>
+</dataSample>

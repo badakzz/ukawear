@@ -1,0 +1,245 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* block top search */
+#search_block_top {
+  position: absolute;
+  right: 26%;
+  top: 34px; }
+
+#search_block_top p {
+  padding: 0; }
+
+#search_block_top #search_query_top {
+  padding: 0 5px;
+  height: 23px;
+  width: 300px;
+  /* 310 */
+  border: 1px solid #666;
+  border-right: 0 !important;
+  color: #666;
+  background: url(img/bg_search_input.png) repeat-x 0 0 #fff;
+  float: left; }
+
+#search_block_top .button {
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  background: url(img/bg_search_submit.png) repeat-x 0 0 #101010;
+  float: left;
+  height: 25px; }
+
+span.no-result {
+  padding: 10px; }
+
+form#searchbox {
+  padding-top: 5px; }
+
+form#searchbox label {
+  color: #333;
+  margin-bottom: 1px; }
+
+form#searchbox input#leo_search_query_block {
+  border: 1px solid #CCCCCC;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+  height: 18px;
+  margin-top: 10px; }
+
+form#searchbox input#search_button {
+  padding: 1px 4px; }
+
+.list-cate-wrapper {
+  position: relative; }
+
+.list-cate {
+  width: 100%;
+  padding: 0px; }
+
+.cate-item {
+  display: block;
+  padding: 10px; }
+
+#leosearchtopbox a.cate-item.active, #leosearchtopbox a.cate-item:hover, #leosearchbox a.cate-item.active, #leosearchbox a.cate-item:hover {
+  background: #000;
+  color: #fff; }
+
+#dropdownListCate, #dropdownListCateTop {
+  cursor: pointer;
+  display: block;
+  padding: 5px 0px 5px 5px; }
+
+#leosearchtopbox #dropdownListCateTop:hover, #leosearchbox #dropdownListCate:hover {
+  color: #414141; }
+
+#leo_search_block_top {
+  margin: 10px 0;
+  border-radius: 23px;
+  background: #fff; }
+  #leo_search_block_top .title_block {
+    display: none; }
+  #leo_search_block_top form > label {
+    display: none; }
+  #leo_search_block_top label[for="search_query_block"] {
+    display: none; }
+  #leo_search_block_top .block_content {
+    position: relative;
+    display: flex; }
+  #leo_search_block_top .list-cate-wrapper {
+    width: 150px;
+    height: 45px; }
+    @media (max-width: 575px) {
+      #leo_search_block_top .list-cate-wrapper {
+        display: none; } }
+    #leo_search_block_top .list-cate-wrapper:before {
+      content: "";
+      width: 1px;
+      height: 25px;
+      position: absolute;
+      top: 10px;
+      right: 0; }
+      .rtl #leo_search_block_top .list-cate-wrapper:before {
+        left: 0;
+        right: auto; }
+    #leo_search_block_top .list-cate-wrapper .select-title {
+      height: 45px;
+      overflow: hidden;
+      line-height: 45px;
+      text-transform: capitalize;
+      color: #999; }
+      #leo_search_block_top .list-cate-wrapper .select-title i {
+        position: absolute;
+        top: 14px;
+        right: 10px; }
+        .rtl #leo_search_block_top .list-cate-wrapper .select-title i {
+          left: 10px;
+          right: auto; }
+    #leo_search_block_top .list-cate-wrapper .dropdown-menu {
+      font-size: 13px;
+      max-height: 230px;
+      overflow: auto;
+      overflow-x: hidden; }
+  #leo_search_block_top #dropdownListCateTop {
+    padding: 0 25px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: none !important; }
+    #leo_search_block_top #dropdownListCateTop i {
+      font-size: 14px; }
+  #leo_search_block_top .form-control {
+    background: #fff;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 65px 0 20px;
+    border-radius: 23px;
+    outline: 0;
+    font-size: 15px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    transition: all .3s; }
+    .rtl #leo_search_block_top .form-control {
+      padding: 0 20px 0 65px; }
+    #leo_search_block_top .form-control:focus {
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5); }
+    @media (max-width: 767px) {
+      #leo_search_block_top .form-control {
+        font-size: 13px;
+        padding: 0 55px 0 20px; }
+        .rtl #leo_search_block_top .form-control {
+          padding: 0 20px 0 55px; } }
+  #leo_search_block_top .cssload-speeding-wheel {
+    position: absolute;
+    top: 13px;
+    right: 70px; }
+    .rtl #leo_search_block_top .cssload-speeding-wheel {
+      left: 70px;
+      right: auto; }
+  #leo_search_block_top .btn {
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    background: #f7f2f2;
+    color: #222;
+    position: absolute;
+    top: 0;
+    right: -2px;
+    -moz-border-radius: 0 23px 23px 0;
+    -webkit-border-radius: 0 23px 23px 0;
+    border-radius: 0 23px 23px 0; }
+    @media (max-width: 767px) {
+      #leo_search_block_top .btn {
+        width: 50px; } }
+    .rtl #leo_search_block_top .btn {
+      left: -2px;
+      right: auto; }
+    .rtl #leo_search_block_top .btn {
+      -moz-border-radius: 23px 0 0 23px;
+      -webkit-border-radius: 23px 0 0 23px;
+      border-radius: 23px 0 0 23px; }
+    #leo_search_block_top .btn:hover {
+      color: #000; }
+    #leo_search_block_top .btn i {
+      font-size: 20px; }
+
+.leoproductsearch-result {
+  position: relative;
+  width: 100%; }
+  .leoproductsearch-result .ac_results {
+    border: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-top: 2px;
+    max-height: 340px;
+    overflow: auto; }
+    .rtl .leoproductsearch-result .ac_results {
+      text-align: right; }
+    .leoproductsearch-result .ac_results li {
+      display: flex;
+      align-items: center;
+      padding: 2px;
+      cursor: pointer; }
+      .leoproductsearch-result .ac_results li .lps-result-img {
+        width: 36px;
+        min-width: 36px;
+        margin: 0 10px 0 0; }
+        .rtl .leoproductsearch-result .ac_results li .lps-result-img {
+          margin: 0 0 0 10px; }
+      .leoproductsearch-result .ac_results li .lps-result-title {
+        color: #333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical; }
+    .leoproductsearch-result .ac_results .ac_over {
+      background: #000; }
+      .leoproductsearch-result .ac_results .ac_over .lps-result-title {
+        color: #fff; }
+
+/*# sourceMappingURL=leosearch.css.map */

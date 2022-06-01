@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>gallerique</name>
+    <displayName><![CDATA[Gallerique]]></displayName>
+    <version><![CDATA[1.3.25]]></version>
+    <description><![CDATA[Cr&eacute;e des galeries qui peuvent &ecirc;tre visualis&eacute;es via fancybox pour Prestashop 1.6.x - 1.7.x.]]></description>
+    <author><![CDATA[Silbersaiten]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

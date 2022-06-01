@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>
+<sql>
+<![CDATA[]]></sql>
+
+  <hooks>
+    <hook module="leoproductsearch" hook="Header" position="13" exceptions=""/>
+    <hook module="leoproductsearch" hook="actionAdminControllerSetMedia" position="7" exceptions=""/>
+    <hook module="leoproductsearch" hook="displayMobileTopSiteMap" position="1" exceptions=""/>
+  </hooks>
+</dataSample>

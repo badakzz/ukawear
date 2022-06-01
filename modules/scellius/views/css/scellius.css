@@ -1,0 +1,98 @@
+.scellius_review .small {
+    font-size: 10px;
+}
+
+.scellius_review {
+    border: 1px solid black;
+    font-size: 13px !important;
+    margin-top: 5px;
+    min-width: 380px;
+}
+
+.scellius_review td.amount {
+    text-align: right;
+    font-weight: bold;
+}
+
+.scellius_review thead tr {
+    border-bottom: 1px solid black;
+}
+
+.scellius_review td, .scellius_review th {
+    padding: 3px 6px;
+}
+
+#scellius_iframe {
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    border: 0 none;
+}
+
+#scellius_cancel_iframe a {
+    font-size: 12px;
+    text-decoration: none;
+    border: 0;
+    margin-left: 15px;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    display: inline;
+}
+
+.scellius_card {
+    display: inline !important;
+}
+
+.scellius_card img, .scellius_card span {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.scellius_card img {
+    max-width: 90px;
+    max-height: 30px;
+}
+
+.scellius_card span {
+    height: 30px;
+}
+
+.scellius_card_click {
+    margin-right: 20px;
+}
+
+.scellius_card_click input { /* hide radio */
+    display: none !important;
+}
+
+.scellius_card_click img {
+    cursor: pointer;
+    border: 2px solid transparent;
+    opacity: 0.6;
+    max-height: 40px;
+    max-width: 100px;
+}
+
+.scellius_card_click input:checked + img {
+    border: 2px solid black;
+    opacity: 1;
+}
+
+.scellius_card_click img:HOVER, .scellius_card_click img.hover {
+    opacity: 1;
+}
+
+.payment-option label img[src*="scellius"] {
+    max-width: 90px;
+    margin-right: 12px;
+    max-height: 30px;
+    float: left;
+    margin-top: -5px;
+}
+
+button.kr-popin-button {
+    display: none !important;
+    width: 0;
+    height: 0;
+}

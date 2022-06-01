@@ -1,0 +1,183 @@
+@import "vars/block.vars";
+// block in sidebar - left column, right column
+.sidebar{
+    @media (min-width: 992px) {
+        margin-bottom: 30px;
+    }
+    .ApColumn .block {
+        margin-bottom: 0;
+        &.ApImage{
+            padding: 0;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+	#search_filters_wrapper{
+		border: 1px solid #efefef;
+		border-bottom: 0;
+		.block{
+			border: 0;
+		}
+	}
+    .#{$block-selector} {
+        margin: 0;
+        padding: 30px;
+        background: $white;
+		border: 1px solid #efefef;
+        border-bottom: 0;
+        @media (max-width: 1199px) {
+            padding: 30px;  
+        }
+        &:last-child{
+        	border-bottom: 1px solid #efefef;
+        }
+        &.featured-products{
+            padding: 30px 0;
+        }
+        .#{$block-heading-selector}{                                                       
+            font-size: 16px;
+            padding: 20px 0;
+            position: relative; 
+            margin: 0; 
+            text-transform: uppercase;
+            @media (max-width: 1199px) {
+                font-size: 14px;
+            }
+            a{
+                color: #000;
+            }
+            &.products-section-title{
+                @include rtl-text-align-left();
+                letter-spacing: 0;
+                padding: 20px 30px;
+                margin: 0 0 15px;
+                @media (max-width: 1199px) {
+                    padding: 20px;
+                }
+            }
+        }
+        .#{$block-content-selector} {        
+            @include clearfix();
+        }
+        .products{ 
+            .ajax_block_product {
+                @include make-col(12);
+            }
+            .thumbnail-container{
+                @include rtl-text-align-left();
+                box-shadow: none;
+                border-bottom: 1px solid #efefef;
+                margin: 0 0 15px;
+                padding: 0 5px 15px; 
+                &:after {
+                  content: "";
+                  display: block;
+                  clear: both;
+                }
+                .product-meta{
+                    @include rtl-text-align-left();
+                }
+                .leo-pro-attr-section,
+                input.leo_cart_quantity,
+                .product-thumbnail:before{
+                    display: none;
+                }
+                .product-image{
+                    width: 40%;
+                    @include rtl-float-left();
+                    padding: 0 10px;
+                    border: 0;
+                    margin: 0;
+                }
+                .product-meta{
+                    width: 60%;
+                    @include rtl-float-left();
+                    padding: 0 10px;
+                    margin: 0;
+                    position: static;
+                    transform: none;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .highlighted-informations,
+                .quickview,
+                .product-flags,
+                .functional-buttons,
+                .button-container,
+                .wishlist,
+                .leo-wishlist-button-dropdown,
+                .compare,
+                .pro-info
+                {
+                    display: none;
+                }
+                .product-additional{
+                    right: 15px;
+                    left: 15px;
+                }
+                .product-title{
+                    margin: 0 0 10px;
+                    height: 20px;
+                    overflow: hidden;
+                    line-height: 20px;
+                    font-size: 13px;
+                    a{
+                        display: block;
+                    }
+                }
+                .product-price-and-shipping{
+                    transform: none;
+                    opacity: 1;
+                    visibility: visible;
+                }
+                .leo-bt-cart { 
+                    min-width: 30px;
+                    i {
+                        display: inline-block; 
+                    }
+                    .leo-bt-cart-content span{
+                        display: none;
+                    }
+                }
+            } 
+        }
+        a.all-product-link{
+            font-size: 12px;
+            text-transform: capitalize;
+            border: 0;
+            font-weight: normal;
+            margin: 0 15px;
+            padding: 10px 0;
+            color: #333;
+            background: none;
+            text-decoration: underline;
+            &:hover,
+            &:active,
+            &:focus{
+                color: $theme-color-default;
+                background: none;
+            }
+        }
+        .list-group-item{
+            border: none;
+            padding: 10px 0;
+        }
+    }
+    .js-search-filters-clear-all{
+        text-decoration: underline;
+        background: none;
+        color: #333;
+        padding: 12px 15px;
+        &:hover,
+        &:active,
+        &:focus{
+            color: $theme-color-default;
+            background: none;
+        }
+    }
+}
+#cart-block{
+    position: relative;
+}

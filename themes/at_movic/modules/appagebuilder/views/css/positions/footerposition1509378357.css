@@ -1,0 +1,21 @@
+/*footer 5*/
+.footer-bottom {
+  padding: 0;
+  border-top: 0; }
+
+.footer-center {
+  padding-bottom: 0; }
+
+.footer-container {
+  padding: 2px 0 0;
+  border-top: 0; }
+
+@media (max-width: 1199px) {
+  .footer-center {
+    padding-left: 1px;
+    padding-right: 1px; } }
+@media (max-width: 767px) {
+  .footer-bottom .ApColumn .block {
+    margin-bottom: 0; } }
+
+/*# sourceMappingURL=footerposition1509378357.css.map */

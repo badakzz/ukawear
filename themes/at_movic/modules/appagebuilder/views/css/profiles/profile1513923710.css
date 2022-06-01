@@ -1,0 +1,38 @@
+/*home 2*/
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.box-slider {
+  margin-bottom: 35px; }
+
+.box-instagram .ApInstagram {
+  border-bottom: 0;
+  padding-bottom: 20px; }
+
+.leo-megamenu .dropdown-menu {
+  left: 0;
+  right: auto; }
+
+.rtl .leo-megamenu .dropdown-menu {
+  left: auto;
+  right: 0; }
+
+/*# sourceMappingURL=profile1513923710.css.map */

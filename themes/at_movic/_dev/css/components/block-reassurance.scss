@@ -1,0 +1,19 @@
+#block-reassurance{
+  margin-top: 16px;
+  img{
+    width: 25px; 
+    @include opacity(0.7);
+    @include rtl-margin-right(10px);
+  }
+  li{
+  }
+  li .block-reassurance-item{
+    @include rtl-padding(0.5rem, 1.5rem, 0.5rem, 0rem); 
+    span{
+      font-weight: 400;
+      margin: 0px;
+      color: $theme-color-senary;
+      font-size: 14px;
+    }
+  }
+}

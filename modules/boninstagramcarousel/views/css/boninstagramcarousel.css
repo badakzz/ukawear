@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.instagram-carousel-container .instagram-home-title h3 {
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.instagram-carousel-container .instagram-home-title {
+  margin-bottom: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.instagram-carousel-container ul li a {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.instagram-carousel-container ul li a img {
+  max-width: 100%;
+  height: auto;
+}
+.instagram-carousel-container .instagram_cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  transition: all .3s ease-out;
+  background-color: rgba(0,0,0,0.7);
+}
+.instagram-carousel-container ul li a:hover .instagram_cover,
+.instagram-carousel-container ul li a:hover .instagram_likes,
+.instagram-carousel-container ul li a:hover .instagram_comment{
+  opacity: 1;
+}
+
+.instagram-carousel-container .instagram_likes {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 18px;
+  opacity: 0;
+}
+
+.instagram-carousel-container .instagram_likes:after{
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  content: '♡';
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  transition: all .4s ease-out;
+  vertical-align: -1px;
+}
+
+.instagram-carousel-container .instagram_comment {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 18px;
+  opacity: 0;
+}
+
+.instagram-carousel-container .instagram_comment:after{
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  content: '✉';
+  font-size: 20px;
+  width: 22px;
+  height: 22px;
+  margin-left: 3px;
+  text-align: center;
+  transition: all .4s ease-out;
+  vertical-align: -1px;
+}
+
+.instagram-carousel-container ul li a:hover .instagram_cover:before{
+  transform: scale(1);
+}
+
+.instagram-carousel-container .instagram_cover:before{
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '＋';
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  margin: -12px 0 0 -12px;
+  transform: scale(0);
+  transition: all .4s ease-out;
+}
+
+.instagram-carousel-container .owl-nav {
+  position: absolute;
+  right: -5px;
+  top: -75px;
+}
+.instagram-carousel-container .owl-theme .owl-nav [class*="owl-"] {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.instagram-carousel-container .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #333;
+}
+.instagram-carousel-container .owl-theme .owl-dots .owl-dot.active span,
+.instagram-carousel-container .owl-theme .owl-dots .owl-dot:hover span {
+  background: #333;
+}
+

@@ -1,0 +1,81 @@
+.carousel{
+  .direction{
+    position: absolute;
+    top: -95px;
+    @include rtl-right(0);
+  }
+}
+.carousel-control{
+  background: none !important;
+  .icon-prev, .icon-next{
+    background: #f3f3f3;
+    font-size: $carousel-control-font-size;
+    @include rounded-corners(3px);
+    @include size(25px,25px);
+    &:before{
+      font-family: $font-icon;
+      font-size: $carousel-control-font-size;
+      color: $theme-color-tertiary;
+      line-height: 25px;
+    }
+    &:hover{
+      background: $theme-color-default;
+      &:before{
+        color: $white;
+      }
+    }
+  }
+  &.left{
+    right: 25px;
+    left: auto;
+  }
+  .icon-prev{
+    &:before{
+      content: "\f104";
+    }
+  }
+  .icon-next{
+    &:before{
+      content: "\f105";
+    }
+  }
+}
+
+// Override Input
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type="file"]{
+  height: auto;
+}
+
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $white, $nocolor, $border-color);
+} 
+.btn-outline{
+  @include button-variant-outline($white, #333b48, #333b48, $white, $theme-color-default, $theme-color-default);
+}
+.btn{
+  @include rounded-corners($btn-border-radius);
+  &:active, 
+  &:focus, 
+  &:visited,
+  &.active:focus,
+  &:active:focus {
+    outline: none !important;
+    @include box-shadow(none);
+  }
+}
+button{
+  &:focus, &:hover{
+    outline: none;
+  }
+}

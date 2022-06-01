@@ -1,0 +1,27 @@
+// Product List
+// ========================================================================
+// name
+$product-name-color:                $body-color !default;
+$product-name-hover-color:          $link-hover-color !default;
+$product-name-font-family:          $font-family-base !default;
+$product-name-font-size: 			$base-font-size !default;
+$product-name-font-weight:          300 !default;
+
+//price 
+$product-price-color:               $black !default;
+$product-price-font-family:         $font-family-base !default;
+$product-price-font-size:           $base-font-size !default;
+$product-price-font-weight:         700 !default;
+$product-price-regular-color:       $gray-darker !default;
+$product-price-discount-bg:         $brand-secondary !default;
+$product-price-discount-color:      white !default;
+
+// image
+$product-image-border:              $main-border !default;
+$product-image-radius:              0px !default;
+
+// Product Flats
+$product-flags-new-bg:              $brand-primary !default;
+$product-flags-sale-bg:             $brand-info !default;
+$product-flags-discount-bg:         none !default;
+$product-flags-online-only-bg:      $brand-warning !default;
